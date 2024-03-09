@@ -1,0 +1,4 @@
+name=hac2_SDL2_mixer
+description=SDL2_mixer dll addon for optic packs
+author=mouseboyx
+api_version=1.0.0
