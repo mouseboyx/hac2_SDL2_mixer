@@ -35,3 +35,9 @@ Mix_Chunk=Mix_LoadWAV("filename.wav")  --returns a pointer/handle for the file a
 Mix_HaltChannel(Channel_Number)  --stops playing any audio on this channel (-1 for all channels)
 
 Mix_PlayChannel(Channel_number,Mix_Chunk) --plays a specific Mix_Chunk on a specific channel (-1 for any available channel)
+
+Note:
+
+If you're running this on wine, my system seemed to throw an WSAPI error unless the windows version was set to:
+
+WINDOWS XP
